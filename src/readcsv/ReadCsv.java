@@ -83,6 +83,7 @@ public class ReadCsv {
                     default:
                         break;
                 }
+
             }
             ArrayList<String> newlist = removeDuplicates((ArrayList) list);
             for (int i = 0; i < newlist.size(); i++) {
